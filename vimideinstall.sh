@@ -1,4 +1,4 @@
-apt install exuberant-ctags vim cscope build-essential cmake python-dev
+sudo apt install exuberant-ctags vim cscope build-essential cmake python-dev
 mv ~/.vimrc ~/.vimrc.bak
 cp .vimrc ~/
 mkdir ~/.vim

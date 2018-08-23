@@ -1,5 +1,6 @@
-sudo apt install exuberant-ctags vim cscope build-essential cmake python-dev
+sudo apt install exuberant-ctags vim cscope global
 mv ~/.vimrc ~/.vimrc.bak
+mv ~/.vim ~/.vimbak
 cp .vimrc ~/
 mkdir ~/.vim
 mkdir ~/.vim/autoload
@@ -8,13 +9,9 @@ cd ~/.vim
 git clone https://github.com/vim-scripts/pathogen.vim.git
 cp pathogen.vim/autoload/* ~/.vim/autoload
 cd ~/.vim/bundle
-#git clone https://github.com/wesleyche/Trinity.git
-#git clone https://github.com/wesleyche/SrcExpl.git
-#git clone https://github.com/vim-scripts/taglist.vim.git
 git clone https://github.com/vim-scripts/Tagbar.git
 git clone https://github.com/vim-scripts/minibufexplorerpp.git
 git clone https://github.com/vim-scripts/winmanager.git
 git clone https://github.com/yegappan/grep.git
-git clone --recursive https://github.com/Valloric/YouCompleteMe.git
-cd YouCompleteMe
-./install.py --clang-completer
+git clone https://github.com/ludovicchabant/vim-gutentags.git
+git clone https://github.com/skywind3000/gutentags_plus

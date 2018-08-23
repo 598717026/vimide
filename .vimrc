@@ -4,7 +4,7 @@ filetype plugin indent on
 let g:winManagerWindowLayout='FileExplorer'
 nnoremap <F12> :WMToggle<cr>
 nnoremap <F7> :Rgrep<CR>
-#nnoremap <F6> :!ctags -R --c++-kinds=+px --fields=+iaS --extra=+q .
+“nnoremap <F6> :!ctags -R --c++-kinds=+px --fields=+iaS --extra=+q .
 nmap <F9> :TagbarToggle<CR>
 let g:tagbar_width=30
 let g:tagbar_right=1
